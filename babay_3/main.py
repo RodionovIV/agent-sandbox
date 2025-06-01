@@ -1,0 +1,1 @@
+\nfrom fastapi import FastAPI\nfrom api.endpoints import router\n\napp = FastAPI()\n\napp.include_router(router, prefix="/agent")\n

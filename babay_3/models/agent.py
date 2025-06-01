@@ -1,0 +1,1 @@
+\nfrom pydantic import BaseModel\n\nclass AgentRequest(BaseModel):\n    query: str\n\nclass AgentResponse(BaseModel):\n    result: str\n
