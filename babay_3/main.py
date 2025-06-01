@@ -1,1 +1,0 @@
-from fastapi import FastAPI, APIRouter\nfrom .api.endpoints import router as api_router\n\napp = FastAPI()\n\napp.include_router(api_router, prefix="/api")
