@@ -1,0 +1,1 @@
+from fastapi import APIRouter\nfrom models.agent import AgentRequest, AgentResponse\nfrom services.agent_system import AgentSystem\n\nrouter = APIRouter()\nagent = AgentSystem()\n\n@router.post("/agent", response_model=AgentResponse)\ndef process_agent_request(request: AgentRequest):\n    result = agent.process(request.query)\n    return AgentResponse(result=result)
