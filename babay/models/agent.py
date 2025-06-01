@@ -1,1 +1,0 @@
-from pydantic import BaseModel\n\nclass LanguageLearningRequest(BaseModel):\n    query: str\n\nclass LanguageLearningResponse(BaseModel):\n    result: str
