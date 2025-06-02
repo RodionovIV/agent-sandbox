@@ -1,1 +1,1 @@
-from fastapi import FastAPI, APIRouter\nfrom api.endpoints import router\n\napp = FastAPI()\n\napp.include_router(router, prefix="/agent")
+\nfrom fastapi import FastAPI\nfrom api.endpoints import router\n\napp = FastAPI()\n\napp.include_router(router, prefix="/agent")\n
