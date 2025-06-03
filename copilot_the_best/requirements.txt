@@ -1,0 +1,96 @@
+fastapi==0.95.2
+uvicorn==0.23.2
+langchain==0.0.241
+langgraph==0.0.1
+langchain-gigachat==0.0.1
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+python-dotenv==1.0.0
+numpy==1.24.3
+pandas==2.0.3
+requests==2.31.0
+python-multipart==0.0.6
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+sqlalchemy==2.0.21
+python-dateutil==2.8.2
+python-magic==0.4.27
+python-magic-bin==0.4.14
+python-telegram-bot==20.7
+python-socketio==5.10.1
+python-socketio-client==0.7.0
+python-socketio-async==0.1.0
+python-socketio-flask==0.1.0
+python-socketio-flask-socketio==0.1.0
+python-socketio-flask-socketio-client==0.1.0
+python-socketio-flask-socketio-server==0.1.0
+python-socketio-flask-socketio-client-server==0.1.0
+python-socketio-flask-socketio-client-server-utils==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+python-socketio-flask-socketio-client-server-utils-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra-extra==0.1.0
+```
+
+## Запуск проекта
+
+1. Установите зависимости:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Запустите приложение:
+
+```bash
+uvicorn main:app --reload
+```
+
+3. Откройте браузер и перейдите по адресу `http://localhost:8000/docs`, чтобы увидеть документацию API.
+
+## Примеры использования
+
+Пример запроса к агенту:
+
+```bash
+curl -X POST http://localhost:8000/api/agent -H \"Content-Type: application/json\" -d '{\"query\": \"Какую кредитную карту мне лучше оформить?\"}'
+```
+
+Пример ответа:
+
+```json
+{
+    \"result\": \"Для выбора кредитной карты рекомендую учитывать ваши финансовые возможности и потребности. Например, если вы часто путешествуете, вам может подойти карта с бонусами на путешествия. Если вы часто делаете покупки онлайн, обратите внимание на карты с кэшбэком. Для получения более точной рекомендации, пожалуйста, уточните ваши предпочтения и потребности.\"
+}
+```
+
+## Заключение
+
+Проект предоставляет возможность автоматизации консультирования клиентов банка по телефону с использованием LLM-агентов. Это позволяет повысить качество обслуживания, снизить нагрузку на сотрудников и увеличить продажи банковских продуктов. Проект готов к дальнейшему развитию и интеграции с другими системами банка.
