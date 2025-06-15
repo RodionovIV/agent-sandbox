@@ -6,7 +6,7 @@
 
 ## Структура каталогов
 ```
-/media/ts777/Kingston/Sandbox/agent-sandbox/test_project_jinja
+test_project_jinja
 ├── api
 │   └── endpoints.py
 ├── Dockerfile
