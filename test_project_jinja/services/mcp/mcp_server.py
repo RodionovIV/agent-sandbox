@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 
 import requests
@@ -11,7 +12,7 @@ mcp = FastMCP("mcp_server_1", port=8000)
 def test_get():
     """TEST GET MCP TOOL"""
     try:
-        url = "http://testurl"
+        url = os.getenv("TEST_GET")
         response = requests.get(url)
         print(f"Вызван get-tool для url {url}")
         response.raise_for_status()
@@ -27,7 +28,7 @@ def test_get():
 def test_post(data):
     """TEST POST MCP TOOL"""
     try:
-        url = "http://testurl"
+        url = os.getenv("TEST_POST")
         headers = {"Content-Type": "application/json"}
         data = json.dumps(data)
         response = requests.post(url, data, headers=headers)
