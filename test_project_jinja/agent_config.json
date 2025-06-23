@@ -1,0 +1,54 @@
+{
+  "systemType": "workflow",
+  "graph": {
+    "initialState": "test",
+    "nodes": [
+      {
+        "name": "test",
+        "to": "test2"
+      },
+      {
+        "name": "test2",
+        "to": "END"
+      }
+    ]
+  },
+  "agents": [
+    {
+      "agentName": "test",
+      "agentDescription": "Тестовый агент",
+      "agentType": "agent_with_tools",
+      "servers": [
+        "mcp_server_1"
+      ]
+    },
+    {
+      "agentName": "test2",
+      "agentDescription": "Тестовый агент2",
+      "agentType": "agent_with_tools",
+      "servers": [
+        "mcp_server_1"
+      ]
+    }
+  ],
+  "servers": [
+    {
+      "serverName": "mcp_server_1",
+      "tools": [
+        {
+          "toolName": "test_get",
+          "toolType": "get_mcp_template",
+          "toolDescription": "TEST GET MCP TOOL"
+        },
+        {
+          "toolName": "test_post",
+          "toolType": "post_mcp_template",
+          "toolDescription": "TEST POST MCP TOOL",
+          "params": [
+            "data"
+          ]
+        }
+      ]
+    }
+  ]
+}
