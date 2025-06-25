@@ -16,6 +16,7 @@ tools_dir = base_dir + "/services/"
 
 # MCP Tools
 rag_server_mcp_tool = tools_dir + "rag_server_mcp.py"
+web_search_server_mcp_tool = tools_dir + "web_search_server_mcp.py"
 api_server_mcp_tool = tools_dir + "api_server_mcp.py"
 ############
 

@@ -9,8 +9,12 @@
 test_project_red
 ├── api
 │   └── endpoints.py
+├── Dockerfile
+├── main.py
 ├── models
 │   └── agents.py
+├── README.md
+├── requirements.txt
 ├── services
 │   ├── agents
 │   │   ├── agent_state.py
@@ -22,10 +26,11 @@ test_project_red
 │   └── mcp
 │       ├── api_server_mcp.py
 │       ├── mcp_client.py
-│       └── rag_server_mcp.py
+│       ├── rag_server_mcp.py
+│       └── web_search_server_mcp.py
 └── settings.py
 
-5 directories, 12 files
+5 directories, 17 files
 
 ```
 ## Описание каталогов

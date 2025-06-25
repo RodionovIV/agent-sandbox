@@ -5,14 +5,14 @@ import sys
 import requests
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("api_server", port=8000)
+mcp = FastMCP("web_search_server", port=8000)
 
 
 @mcp.tool()
-def API():
-    """Инструмент для перевода текста и речи через API"""
+def Web Search():
+    """Инструмент для поиска информации в интернете"""
     try:
-        url = os.getenv("API")
+        url = os.getenv("WEB SEARCH")
         response = requests.get(url)
         print(f"Вызван get-tool для url {url}")
         response.raise_for_status()
