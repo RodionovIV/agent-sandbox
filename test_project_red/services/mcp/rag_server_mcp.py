@@ -10,7 +10,7 @@ mcp = FastMCP("rag_server", port=8000)
 
 @mcp.tool()
 def RAG():
-    """Инструмент для извлечения знаний из документов"""
+    """Инструмент для извлечения и генерации знаний."""
     try:
         url = os.getenv("RAG")
         response = requests.get(url)

@@ -6,19 +6,19 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import create_react_agent
 
 from services.mcp.mcp_client import client
-from settings import llm, teacherAgent_prompt
+from settings import llm, trainerAgent_prompt
 from services.agents.agent_state import AgentState
 
 _LOGGER = logging.getLogger(__name__)
 
 
-class TeacheragentAgent:
+class TraineragentAgent:
     def __init__(self):
         pass
 
     async def create(self):
         tools = []
-        for server_name in ['rag_server', 'api_server']:
+        for server_name in ['rag_server', 'web_search_server', 'api_server']:
             tools += await client.get_tools(server_name=server_name)
         self.agent = create_react_agent(llm, tools, checkpointer=MemorySaver())
         self.config = {
@@ -31,8 +31,8 @@ class TeacheragentAgent:
     async def run_agent(self, state: AgentState):
         tread_id = self.config['configurable']['thread_id']
         class_name = self.__class__.__name__.lower()
-        task_field = "teacherAgent_task"
-        result_field = "teacherAgent_result"
+        task_field = "trainerAgent_task"
+        result_field = "trainerAgent_result"
 
         _LOGGER.info(f"Status: {class_name}, thread_id: {tread_id}")
 

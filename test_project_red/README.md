@@ -1,19 +1,19 @@
-# Проект: EducationalAssistant
+# Проект: LearningAssistant
 
 ## Описание
 
-Интерактивная система для создания уроков, перевода и проверки заданий.
+Система для обучения и тренировки пользователей с помощью агентов-учителя и тренера.
 
 ## Структура каталогов
 ```
 test_project_red
+├── Dockerfile
+├── README.md
 ├── api
 │   └── endpoints.py
-├── Dockerfile
 ├── main.py
 ├── models
 │   └── agents.py
-├── README.md
 ├── requirements.txt
 ├── services
 │   ├── agents
@@ -21,6 +21,7 @@ test_project_red
 │   │   ├── graph.py
 │   │   ├── orchestrator_agent.py
 │   │   ├── teacherAgent_agent.py
+│   │   ├── trainerAgent_agent.py
 │   │   ├── translatorAgent_agent.py
 │   │   └── tutorAgent_agent.py
 │   └── mcp
@@ -32,7 +33,7 @@ test_project_red
 │       └── web_search_server_mcp.py
 └── settings.py
 
-5 directories, 19 files
+6 directories, 20 files
 
 ```
 ## Описание каталогов

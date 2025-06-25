@@ -10,7 +10,7 @@ mcp = FastMCP("web_search_server", port=8000)
 
 @mcp.tool()
 def Web Search():
-    """Инструмент для поиска информации в интернете"""
+    """Инструмент для поиска информации в интернете."""
     try:
         url = os.getenv("WEB SEARCH")
         response = requests.get(url)

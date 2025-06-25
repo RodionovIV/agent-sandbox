@@ -10,11 +10,13 @@ mcp = FastMCP("api_server", port=8000)
 
 @mcp.tool()
 def API():
-    """Инструмент для перевода текста и речи через API"""
+    """Инструмент для взаимодействия с внешними API."""
     try:
         url = os.getenv("API")
-        response = requests.get(url)
-        print(f"Вызван get-tool для url {url}")
+        headers = {"Content-Type": "application/json"}
+        data = json.dumps(data)
+        response = requests.post(url, data, headers=headers)
+        print(f"Вызван post-tool для url {url}")
         response.raise_for_status()
         return response.text
     except requests.exceptions.RequestException as e:
