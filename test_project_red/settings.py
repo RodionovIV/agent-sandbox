@@ -15,9 +15,8 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 tools_dir = base_dir + "/services/"
 
 # MCP Tools
-rag_server_mcp_tool = tools_dir + "rag_server_mcp.py"
-web_search_server_mcp_tool = tools_dir + "web_search_server_mcp.py"
-api_server_mcp_tool = tools_dir + "api_server_mcp.py"
+mcp_server_1_mcp_tool = tools_dir + "mcp_server_1_mcp.py"
+mcp_server_2_mcp_tool = tools_dir + "mcp_server_2_mcp.py"
 ############
 
 # Agents settings

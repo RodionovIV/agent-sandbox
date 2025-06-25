@@ -2,7 +2,7 @@
 
 ## Описание
 
-Система для создания уроков, перевода и проверки заданий
+Интерактивная система для создания уроков, перевода и проверки заданий.
 
 ## Структура каталогов
 ```
@@ -26,11 +26,13 @@ test_project_red
 │   └── mcp
 │       ├── api_server_mcp.py
 │       ├── mcp_client.py
+│       ├── mcp_server_1_mcp.py
+│       ├── mcp_server_2_mcp.py
 │       ├── rag_server_mcp.py
 │       └── web_search_server_mcp.py
 └── settings.py
 
-5 directories, 17 files
+5 directories, 19 files
 
 ```
 ## Описание каталогов

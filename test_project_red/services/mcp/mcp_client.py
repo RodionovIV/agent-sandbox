@@ -4,20 +4,15 @@ from langchain_mcp_adapters.client import MultiServerMCPClient
 
 client = MultiServerMCPClient(
     {
-        "rag_server": {
+        "mcp_server_1": {
             "transport": "stdio",
             "command": "python",
-            "args": [settings.rag_server_mcp_tool]
+            "args": [settings.mcp_server_1_mcp_tool]
         },
-        "web_search_server": {
+        "mcp_server_2": {
             "transport": "stdio",
             "command": "python",
-            "args": [settings.web_search_server_mcp_tool]
-        },
-        "api_server": {
-            "transport": "stdio",
-            "command": "python",
-            "args": [settings.api_server_mcp_tool]
+            "args": [settings.mcp_server_2_mcp_tool]
         }
     }
 )

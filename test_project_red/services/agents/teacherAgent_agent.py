@@ -18,7 +18,7 @@ class TeacheragentAgent:
 
     async def create(self):
         tools = []
-        for server_name in ['rag_server', 'web_search_server']:
+        for server_name in ['mcp_server_1']:
             tools += await client.get_tools(server_name=server_name)
         self.agent = create_react_agent(llm, tools, checkpointer=MemorySaver())
         self.config = {
